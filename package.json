@@ -1,0 +1,38 @@
+{
+  "name": "tfschedule",
+  "version": "2.6.5",
+  "description": "定时脚本管理系统",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilsonLiu95/TFSchedule.git"
+  },
+  "keywords": [
+    "定时器、高可靠、易管理"
+  ],
+  "author": "wilsonsliu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilsonLiu95/TFSchedule/issues"
+  },
+  "homepage": "https://github.com/WilsonLiu95/TFSchedule#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.17.2",
+    "co": "^4.6.0",
+    "co-express": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "cron-parser": "^2.4.3",
+    "express": "^4.15.4",
+    "fs-extra": "^4.0.3",
+    "moment": "^2.19.2",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "node-dir": "^0.1.17",
+    "node-schedule": "^1.2.5",
+    "promise-mysql": "^3.1.3"
+  }
+}
